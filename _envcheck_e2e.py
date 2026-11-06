@@ -34,3 +34,4 @@ print("PROMPT : 用一句话解释什么是机器学习。")
 print("RESPONSE:", out.strip()[:300])
 print("-" * 50)
 print("峰值显存: %.2f GB" % (torch.cuda.max_memory_allocated() / 1024**3))
+# 这是在 exp/add-note 分支上加的一行
